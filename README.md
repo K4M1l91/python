@@ -8,13 +8,13 @@ Created a custom configuration file at:
 ~/.config/pipewire/pipewire.conf.d/custom-quantum.conf
 
 Content added:
-
+'''
 context.properties = {
     default.clock.quantum       = 256
     default.clock.min-quantum   = 256
     default.clock.max-quantum   = 256
     default.clock.force-quantum = 256
 }
-
+'''
 This change stabilizes the buffer size and prevents timing issues 
 that were causing audio failures.
