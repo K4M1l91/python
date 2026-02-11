@@ -8,6 +8,7 @@ Created a custom configuration file at:
 ~/.config/pipewire/pipewire.conf.d/custom-quantum.conf
 
 Content added:
+
 context.properties = {
     default.clock.quantum       = 256
     default.clock.min-quantum   = 256
